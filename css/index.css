@@ -1,0 +1,40 @@
+* {margin: 0;}
+
+#container {
+  width: 1075px;
+  height: 575px;
+  background-color: yellow;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: table-cell;
+  transform: translate(-50%, -50%);
+}
+
+#leftCharacter {
+  width: 250px;
+  height: 250px;
+  background-color: red;
+  float: left;
+  position: absolute;
+  bottom: 0;
+}
+
+#mainContent {
+  width: 575px;
+  height: 575px;
+  background-color: orange;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 5%;
+  border: 1px solid black;
+}
+
+#rightCharacter {
+  width: 250px;
+  height: 350px;
+  background-color: pink;
+  float: right;
+}
