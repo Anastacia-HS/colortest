@@ -1,8 +1,8 @@
 * {margin: 0;}
 
 #container {
-  width: 1075px;
-  height: 575px;
+  width: 1050px;
+  height: 550px;
   background-color: yellow;
   position: absolute;
   top: 50%;
@@ -21,8 +21,8 @@
 }
 
 #mainContent {
-  width: 575px;
-  height: 575px;
+  width: 550px;
+  height: 550px;
   background-color: orange;
   position: absolute;
   top: 50%;
