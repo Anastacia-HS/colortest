@@ -58,4 +58,8 @@
 #startBtn {
   width: 300px;
   height: 75px;
+  padding: 0;
+  border: none;
+  background-color: none
+  ;
 }
