@@ -12,11 +12,28 @@
         <h2 id="questionNumber">Q1.</h3>
         <h1 id="question">관심사가 많고 취미가 다양한<br>편이다</h1>
         <form action="">
-          <button id="yesAnswer">yes</button>
+          <button id="yesAnswer">
+            <img src="../img/yes.png" onmouseover="zoomIn(event)" onmouseout="zoomOut(event)">
+          </button>
           <button id="noAnswer">no</button>
         </form>
       </div>
       <div id="rightCharacter"></div>
     </div>
+
+    <script>
+      function zoomIn(event) {
+        event.target.style.width = "140px";
+        event.target.style.height = "140px";
+        event.target.style.transition = "all 0.5s";
+      }
+  
+      function zoomOut(event) {
+        event.target.style.width = "135px";
+        event.target.style.height = "135px";
+        event.target.style.transition = "all 0.5s";
+      }
+    </script>
+  
   </body>
 </html>
